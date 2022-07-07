@@ -1,4 +1,4 @@
-baseURL: ''
+baseURL: 'https://blogowo.netlify.app/'
 theme: LoveIt
 themesDir: themes/
 title: BloGowo
@@ -477,7 +477,7 @@ languages:
           enable: true
           gravatarEmail: ''
           avatarURL: /logo.png
-          title: 'Znalazłeś się w BloGowie - miejscu, w którym usiłuję jakoś wyrazić siebie, odrobinę pomóc początkującym użytkownikom konsoli wlinuxie i macos.</br> 
+          title: 'Znalazłeś się w BloGowie - miejscu, w którym usiłuję jakoś wyrazić siebie, odrobinę pomóc początkującym użytkownikom konsoli w linuxie i macos.</br> 
          Są tu również jakies moje przemyślenia o świecie, czy zdjęcia, którymi chcialbym sie pochwalić i coś o moim hobby - krótkofalarstwie.'
           subtitle: '
             Ten blog dzieli się na trzy kategorie:</br>
