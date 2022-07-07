@@ -1,0 +1,504 @@
+baseURL: ''
+theme: LoveIt
+themesDir: themes/
+title: BloGowo
+defaultContentLanguage: pl
+languageCode: pl
+languageName: Polish
+
+paginate: 12
+googleAnalytics: ''
+copyright: ''
+enableRobotsTXT: true
+enableGitInfo: false
+enableEmoji: true
+#author:
+#  name: m0iga
+#  email: 'm0iga@gmxUSUNcom'
+#  link: ''
+menu:
+  main:
+    - weight: 4
+      identifier: posts
+      pre: ''
+      post: ''
+      name: Archiwum
+      url: /posts/
+      title: ''
+    - weight: 2
+      identifier: tags
+      pre: ''
+      post: ''
+      name: Tagi
+      url: /tags/
+      title: ''
+    - weight: 3
+      identifier: categories
+      pre: ''
+      post: ''
+      name: Kategorie
+      url: /categories/
+      title: ''
+params:
+  defaultTheme: auto
+  gitRepo: 'https://github.com/dillonzq/LoveIt'
+  fingerprint: ''
+  dateFormat: '02.01.2006'
+  title: BloGowo
+  description: Blog poświęcony tutorialom linux, macos, radiu krótkofalarskiemu
+  images:
+    - /logo.png
+  header:
+    desktopMode: auto
+    mobileMode: auto
+    title:
+      logo: ''
+      name: BloGowo
+      pre: <i class='fa fa-user-secret fa-fw' aria-hidden='true'></i>
+      post: ''
+      typeit: true
+  footer:
+    enable: true
+    custom: ''
+    hugo: true
+    copyright: true
+    author: false
+    since: 2022
+    icp: ''
+    license: >-
+      <a rel="license external nofollow noopener noreffer"
+      href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC
+      BY-NC 4.0</a>
+  section:
+    paginate: 20
+    dateFormat: 01-02
+    rss: 10
+  list:
+    paginate: 20
+    dateFormat: 01-02
+    rss: 10
+  app:
+    title: BloGowo
+    noFavicon: true
+    svgFavicon: ''
+    themeColor: '#ffffff'
+    iconColor: '#5bbad5'
+    tileColor: '#da532c'
+  search:
+    enable: true
+    type: algolia
+    contentLength: 4000
+    placeholder: ''
+    maxResultLength: 10
+    snippetLength: 30
+    highlightTag: em
+    absoluteURL: false
+    algolia:
+      index: ''
+      appID: ''
+      searchKey: ''
+  home:
+    rss: 10
+    profile:
+      enable: false
+      gravatarEmail: ''
+      avatarURL: #/logo.png
+      title: 'BloGowo'
+      subtitle: 'Blog radiowo linuxowo macos-owy'
+      typeit: true
+      social: true
+      disclaimer: ''
+    posts:
+      enable: true
+      paginate: 6
+  social:
+    GitHub: ''
+    Linkedin: ''
+    Twitter: ''
+    Instagram: ''
+    Facebook: ''
+    Telegram: ''
+    Medium: ''
+    Gitlab: ''
+    Youtubelegacy: ''
+    Youtubecustom: ''
+    Youtubechannel: ''
+    Tumblr: ''
+    Quora: ''
+    Keybase: ''
+    Pinterest: ''
+    Reddit: ''
+    Codepen: ''
+    FreeCodeCamp: ''
+    Bitbucket: ''
+    Stackoverflow: ''
+    Weibo: ''
+    Odnoklassniki: ''
+    VK: ''
+    Flickr: ''
+    Xing: ''
+    Snapchat: ''
+    Soundcloud: ''
+    Spotify: ''
+    Bandcamp: ''
+    Paypal: ''
+    Fivehundredpx: ''
+    Mix: ''
+    Goodreads: ''
+    Lastfm: ''
+    Foursquare: ''
+    Hackernews: ''
+    Kickstarter: ''
+    Patreon: ''
+    Steam: ''
+    Twitch: ''
+    Strava: ''
+    Skype: ''
+    Whatsapp: ''
+    Zhihu: ''
+    Douban: ''
+    Angellist: ''
+    Slidershare: ''
+    Jsfiddle: ''
+    Deviantart: ''
+    Behance: ''
+    Dribbble: ''
+    Wordpress: ''
+    Vine: ''
+    Googlescholar: ''
+    Researchgate: ''
+    Mastodon: ''
+    Thingiverse: ''
+    Devto: ''
+    Gitea: ''
+    XMPP: ''
+    Matrix: ''
+    Bilibili: ''
+    Discord: ''
+    DiscordInvite: ''
+    Lichess: ''
+    ORCID: ''
+    Pleroma: ''
+    Kaggle: ''
+    MediaWiki: ''
+    Plume: ''
+    HackTheBox: ''
+    RootMe: ''
+    Email: ''
+    RSS: ''
+  page:
+    hiddenFromHomePage: false
+    hiddenFromSearch: false
+    twemoji: false
+    lightgallery: false
+    ruby: true
+    fraction: true
+    fontawesome: true
+    linkToMarkdown: true
+    rssFullText: false
+    toc:
+      enable: true
+      keepStatic: false
+      auto: true
+    code:
+      copy: true
+      maxShownLines: 50
+    math:
+      enable: false
+      inlineLeftDelimiter: ''
+      inlineRightDelimiter: ''
+      blockLeftDelimiter: ''
+      blockRightDelimiter: ''
+      copyTex: true
+      mhchem: true
+    
+    share:
+      enable: true
+      Twitter: true
+      Facebook: true
+      Linkedin: false
+      Whatsapp: false
+      Pinterest: false
+      Tumblr: false
+      HackerNews: false
+      Reddit: true
+      VK: false
+      Buffer: false
+      Xing: false
+      Line: false
+      Instapaper: false
+      Pocket: true
+      Flipboard: false
+      Weibo: false
+      Blogger: false
+      Baidu: false
+      Odnoklassniki: false
+      Evernote: false
+      Skype: true
+      Trello: false
+      Mix: false
+    comment:
+      enable: false
+#      disqus:
+#       enable: false
+#        shortname: ''
+      gitalk:
+        enable: false
+        owner: ''
+        repo: ''
+        clientId: ''
+        clientSecret: ''
+#      valine:
+#        enable: false
+#       appId: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI
+#       appKey: WBmoGyJtbqUswvfLh6L8iEBr
+#        placeholder: ''
+#       avatar: mp
+#        meta: ''
+#        pageSize: 10
+#        lang: ''
+#        visitor: true
+#        recordIP: true
+#        highlight: true
+#        enableQQ: false
+#        serverURLs: ''
+#        emoji: ''
+#     facebook:
+#       enable: false
+#        width: 100%
+#        numPosts: 10
+#        appId: ''
+#        languageCode: ''
+      telegram:
+        enable: false
+        siteID: ''
+        limit: 5
+        height: ''
+        color: ''
+        colorful: true
+        dislikes: false
+        outlined: false
+#      commento:
+#        enable: false
+#      utterances:
+#        repo: ''
+#        issueTerm: pathname
+#        label: ''
+#        lightTheme: github-light
+#        darkTheme: github-dark
+      giscus:
+        enable: false
+        repo: ''
+        repoId: ''
+        category: Announcements
+        categoryId: ''
+        lang: ''
+        mapping: pathname
+        reactionsEnabled: '1'
+        emitMetadata: '0'
+        inputPosition: bottom
+        lazyLoading: false
+        lightTheme: light
+        darkTheme: dark
+    library:
+      css: {}
+      js: {}
+    seo:
+      images: []
+      publisher:
+        name: xxxx
+        logoUrl: #/images/logo.png
+  typeit:
+    speed: 50
+    cursorSpeed: 1500
+    cursorChar: '|'
+    duration: -1
+  verification:
+    google: ''
+    bing: ''
+    yandex: ''
+    pinterest: ''
+    baidu: ''
+  seo:
+    image: /images/Apple-Devices-Preview.png
+    thumbnailUrl: /images/screenshot.png
+  analytics:
+    enable: false
+    google:
+      id: ''
+      anonymizeIP: true
+    fathom:
+      id: ''
+      server: ''
+    plausible:
+      dataDomain: ''
+    yandexMetrica:
+      id: ''
+  cookieconsent:
+    enable: false
+    content:
+      message: ''
+      dismiss: ''
+      link: ''
+  cdn:
+    data: jsdelivr.yml
+  compatibility:
+    polyfill: false
+    objectFit: false
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+Permalinks:
+  posts: ':filename'
+privacy:
+  googleAnalytics: {}
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+mediaTypes:
+  text/plain:
+    suffixes:
+      - md
+outputFormats:
+  MarkDown:
+    mediaType: text/plain
+    isPlainText: true
+    isHTML: false
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - MarkDown
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
+  taxonomyTerm:
+    - HTML
+languages:
+  pl:
+    weight: 1
+    languageCode: pl
+    languageName: Polish
+
+    copyright: >-
+      This work is licensed under a Creative Commons Attribution-NonCommercial
+      4.0 International License.
+    menu:
+      main:
+        - weight: 4
+          identifier: posts
+          pre: <i class='fa fa-box-archive fa-fw' aria-hidden='true'></i>
+          post: ''
+          name: Archiwum
+          url: /posts/
+          title: ''
+        - weight: 3
+          identifier: tags
+          pre: <i class='fa fa-tags fa-fw' aria-hidden='true'></i>
+          post: ''
+          name: Tagi
+          url: /tags/
+          title: ''
+        - weight: 2
+          identifier: categories
+          pre: <i class='fa fa-folder fa-fw' aria-hidden='true'></i>
+          post: ''
+          name: Kategorie
+          url: /categories/
+          title: ''
+        - weight: 1
+#          identifier: archives
+          pre: '<a href="https://liberapay.com/~1793113/donate"
+           target="_blank"><img style="vertical-align: middle;" alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>'
+#          post: ''
+#          name: Archiwum
+#          url: /archives/
+#          title: ''
+#        - weight: 5
+#          identifier: about
+#          pre: ''
+#          post: ''
+#          name: About
+#          url: /about/
+#          title: ''
+#        - weight: 6
+#         identifier: github
+#         pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
+#          post: ''
+#          name: ''
+#          url: 'https://github.com/dillonzq/LoveIt'
+#          title: GitHub
+    params:
+      search:
+        enable: true
+        type: algolia
+        contentLength: 4000
+        placeholder: ''
+        maxResultLength: 10
+        snippetLength: 30
+        highlightTag: em
+        absoluteURL: false
+        algolia:
+          index: index.en
+          appID: PASDMWALPK
+          searchKey: b42948e51daaa93df92381c8e2ac0f93
+      home:
+        rss: 10
+        profile:
+          enable: true
+          gravatarEmail: ''
+          avatarURL: /logo.png
+          title: 'Znalazłeś się w BloGowie - miejscu, w którym usiłuję jakoś wyrazić siebie, odrobinę pomóc początkującym użytkownikom konsoli wlinuxie i macos.</br> 
+         Są tu również jakies moje przemyślenia o świecie, czy zdjęcia, którymi chcialbym sie pochwalić i coś o moim hobby - krótkofalarstwie.'
+          subtitle: '
+            Ten blog dzieli się na trzy kategorie:</br>
+            *UniXowo* - zawiera głównie tutoriale dla początkujących</br>
+            *RadiOwo* - dział krótkofalarski</br>
+            *NiJako* - z wszelkimi innymi postami
+'
+          typeit: true
+          social: true
+          disclaimer: ''
+      social:
+#        GitHub: 
+        Twitter: Agee_m0iga
+#        Instagram: xxxx
+        Facebook: LoRaAPRS
+        Telegram: m0iga
+#        Youtubelegacy: xxxx
+#        Phone: 555-555-555
+#        Email: xxxx@xxxx.com
+        RSS: true
+        Mastodon:
+          id: '@m0iga'
+          prefix: 'https://101010.pl'
+  
